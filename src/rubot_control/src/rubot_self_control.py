@@ -30,8 +30,8 @@ class rUBot:
         # Se debe de calcular en la primera ejecucion de __callbackLaser(). Esta
         # variable sirve para asegurar que solo se ejecuta este calculo del
         # factor de correccion una sola vez.
-        #self.__isScanRangesLengthCorrectionFactorCalculated = False
-        #self.__scanRangesLengthCorrectionFactor = 2
+        self.__isScanRangesLengthCorrectionFactorCalculated = False
+        self.__scanRangesLengthCorrectionFactor = 2
 
     def start(self):
 
